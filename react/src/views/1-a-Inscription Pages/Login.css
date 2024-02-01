@@ -1,0 +1,58 @@
+.appBg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./b.jpg);
+  background-size: cover;
+}
+.profile_logoL img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80px;
+    height: 50px;
+    backdrop-filter: blur(3px);
+     margin-top: 8px;
+  }
+.LoginForm{
+  width: 450px;
+  height: 565px;
+  /* size: px; */
+  background-color: rgba(255, 255, 255, 0.33);
+  /* box-shadow: 0px 8px 32px 0 rgba(255, 248, 53, 0.93); */
+  backdrop-filter: blur(3px);
+  padding: 0px 16px 16px 16px ;
+  border-radius: 16px;
+  justify-content: end;
+  
+}
+/* .c-btn{
+  color:black;
+  background-color:yellow ;
+  border: 9px solid yellow;
+  border-radius: 15px;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 40px;
+ } */
+.labels-L{
+  line-height: 20px;
+  font-size: 20px;
+  margin-left: -100px;
+   margin-top: -100px;
+   color: black;
+ }
+ .input-L{
+  width: 220px;
+  font-size: 20px;
+  margin-left: -100px;
+  height: 42px;
+ }
+  
+ 
+  

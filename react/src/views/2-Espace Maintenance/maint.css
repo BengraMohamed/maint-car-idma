@@ -1,0 +1,102 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #0b0c28;
+  }
+  :root {
+    --primary-color: #181b3a;
+    --secondary-color: yellow;
+    --body-bg: #0b0c28;
+    --card-01-bg: linear-gradient(#ef621c, #e1d142);
+    --card-02-bg: linear-gradient(#01d293, #56c57a);
+    --card-03-bg: #725cff;
+    --card-04-bg: #2884ff;
+    --heading-color: #fff;
+    --small-text-color: #808191;
+    --recommend-car01-bg: #e1dfa4;
+    --recommend-car02-bg: #e3ecf1;
+    --recommend-car03-bg: #f4e3e5;
+  }
+
+.AppBgDash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1070px;
+    height: 680px;
+    background-image: url(../images/ll.png);
+    background-size: cover;
+  }
+
+  .dashboard__cards-m {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+.single__card-m {
+    margin-top: -7px;
+    font-size: 15px;
+    padding: 1px;
+    width:260px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  } 
+.single__card-m:nth-child(1) {
+    background: var(--card-01-bg);
+  }
+  
+ 
+
+  .single__card2 {
+    margin-top: 55px;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 1px;
+    width:170px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+.single__card2:nth-child(1) {
+    background: var(--card-01-bg);
+  }
+/*    
+  table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table>thead>tr>th {
+    text-align: left;
+    padding: 0.5rem 0.5rem;
+    background-color: #efefef;
+}
+
+table>tbody>tr>td> {
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid blue;
+    white-space: nowrap;
+}
+table td , table th {
+    border : 2.5px solid blue ;
+    width: 1%;
+    border-collapse:collapse ;
+    height: 54px;
+    color: yellow;
+    justify-content: center;
+    
+    
+    } */

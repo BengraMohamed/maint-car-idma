@@ -1,0 +1,158 @@
+.appBg-create-v{
+
+    background-image: url(./ll.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1010px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 65px;
+    margin-top: -50px;
+  }
+   
+  .profile_logoL img {
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 80px;
+      height: 50px;
+      backdrop-filter: blur(3px);
+       margin-top: 8px;
+    }
+
+
+  .LoginForm-create{
+    width: 450px;
+    height: 540px;
+    size: 50px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 1px 15px 0 rgba(11, 65, 241, 0.93);
+    backdrop-filter: blur(3px);
+    padding: 0px 16px 16px 16px ;
+    border-radius: 16px;
+    justify-content: end;
+    margin-top: 70px;
+    
+  }
+ 
+  .g_style{
+    font-size: 26px;
+    color: yellow;
+    
+  }
+
+  .labels-L{
+    line-height: 20px;
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: -100px;
+     color: black;
+   }
+   .inputs-SL{
+    font-size: 20px;
+    width: 390px;
+    margin-left: -100px;
+    height: 45px;
+   }
+   
+
+   /* ------------------------------- */
+    
+
+   .settings {
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  /* .settings__wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    width: 1050px;
+  } */
+  
+  .title_create_car {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: cyan;
+     height: 40px;
+     background-color: blue;
+     
+  }
+  
+  .settings__top {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .setting__btn {
+    border: none;
+    padding: 7px 25px;
+    background: transparent;
+    border-radius: 5px;
+    color: var(--heading-color);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .active__btn {
+    background: #b7ffe913;
+  }
+  
+  .profile__title {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .profile__desc {
+    color: var(--small-text-color);
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    color: var(--heading-color);
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .form__group div {
+     flex-direction: column;
+    width: 100%;
+  }
+  
+  .form__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form__group div input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #b7ffe913;
+    color: var(--heading-color);
+    font-size: 1rem;
+  }
+  
+  .form__group div input::placeholder {
+    color: var(--small-text-color);
+    font-size: 0.9rem;
+  }
+  
+  .form__group div input:focus {
+    outline: none;
+  }
+  
+  
+  

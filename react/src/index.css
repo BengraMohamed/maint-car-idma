@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #181b3a;
+    --secondary-color: yellow;
+    --body-bg: #0b0c28;
+    --card-01-bg: linear-gradient(#ef621c, #e1d142);
+    --card-02-bg: linear-gradient(#01d293, #56c57a);
+    --card-03-bg: #725cff;
+    --card-04-bg: #2884ff;
+    --heading-color: #fff;
+    --small-text-color: #808191;
+    --recommend-car01-bg: #e1dfa4;
+    --recommend-car02-bg: #e3ecf1;
+    --recommend-car03-bg: #f4e3e5;
+  }
+
+html,
+
+#root,
+#defaultLayout,
+#guestLayout {
+    min-height: 100vh;
+    color: #181b3a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #212121;
+    background-color: #181b3a;
+}
+
+input {
+    outline: 0;
+    background: #ffffff;
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    border-color: #DFF10F;
+}
+
+
+
+.btn1,
+.btn1-add,
+.btn1-edit,
+.btn1-delete {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #DFF10F;
+    border: 0;
+    text-decoration: none;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn1-add,
+.btn1-edit,
+.btn1-delete {
+    padding: 0.5rem 0.75rem;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn1-add {
+    background-color: #00a762;
+}
+
+.btn1-delete {
+    background-color: #b72424;
+}
+
+.btn-logout {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    color: #212121;
+    transition: all 0.3s;
+    border-radius: 6px;
+}
+
+.btn-logout:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn1:hover,
+.btn1:active,
+.btn1:focus {
+    background: #def10f81;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.card {
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.alert {
+    padding: 1rem;
+    background-color: #ff4040;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.notification {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+    padding: 1rem 1.5rem;
+    background-color: #00a762;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+/* Login/Signup form11s*/
+
+.login-signup-form1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-signup-form1 .form1 {
+    width: 360px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    padding: 34px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.login-signup-form1 .title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.login-signup-form1 .form1 .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-signup-form1 .form1 .message a {
+    color: #DFF10F;
+    text-decoration: none;
+}
+
+/* Login/Signup form1 */
+
+
+#defaultLayout {
+    display: flex;
+}
+
+#defaultLayout aside {
+    width: 240px;
+    background-color: #181b3a;
+    padding: 1rem;
+    
+}
+/* 👀👀👀 */
+
+#defaultLayout aside>a {
+    display: block;
+    padding: 2rem 1rem;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+/* hover */
+#defaultLayout aside>a:hover {
+    background-color: rgba(7, 255, 218, 0.2);
+}
+
+#defaultLayout .content {
+    flex: 1;
+    margin: 1px;
+
+}
+
+#defaultLayout header {
+    height: 80px;
+    padding: 2rem 3rem;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#defaultLayout main {
+    padding: 2rem;
+}
+
+.animated1 {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInDown1 {
+    -webkit-animation-name: fadeInDown1;
+    animation-name: fadeInDown1;
+}
+
+@keyframes fadeInDown1 {
+    0% {
+        opacity: 0;
+        transform1: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform1: translateY(0);
+    }
+}
+
+
+.condition {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check-input {
+    width: 5%;
+    margin-top: 3px;
+}
+
+.condition-phrase {
+    margin-left: 3px;
+}

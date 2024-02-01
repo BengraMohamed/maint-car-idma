@@ -1,0 +1,107 @@
+.appBg-create-Consm{
+   
+    background-image: url(./g.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1010px;
+    height: 675px;
+     background-size: cover;
+    margin-left: 65px;
+    margin-top: -45px;
+  }
+   
+  .LoginForm-create{
+    width: 450px;
+    height: 540px;
+    size: 50px;
+    background-color: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 1px 15px 0 rgba(11, 65, 241, 0.93);
+    backdrop-filter: blur(3px);
+    padding: 0px 16px 16px 16px ;
+    border-radius: 16px;
+    justify-content: end;
+    margin-top: 70px;
+    
+  }
+  
+  
+   .g_style_Consm{
+    font-size: 30px;
+    color: yellow;
+    
+  }
+  .setting_cnsm {
+    margin-top: 80px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+
+  .title_Consm {
+    color: var(--heading-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top:60px;
+    color: cyan;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+      height: 50px;
+  }
+ 
+  
+  label {
+    color: var(--heading-color);
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .form__group-Consm div {
+    flex-direction: column;
+    width: 95%;
+  }
+  
+  .form__group-Consm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+   
+  
+  .form__group-Consm div input::placeholder {
+     font-size: 0.9rem;
+  }
+  
+  .form__group-Consm div input:focus {
+    outline: none;
+  }
+
+  /* f22 */
+
+  .form__group-Consm-2 div {
+    flex-direction: column;
+    width: 90%;
+  }
+   
+  
+  .form__group-Consm-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+   
+  
+  .form__group-Consm-2 div input::placeholder {
+     font-size: 0.9rem;
+  }
+  
+  .form__group-Consm-2 div input:focus {
+    outline: none;
+  }
+  
+   
